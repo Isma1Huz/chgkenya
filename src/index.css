@@ -18,24 +18,24 @@ All colors MUST be HSL.
     --popover-foreground: 222.2 84% 4.9%;
 
     /* CHG Brand Colors - Primary */
-    --primary: 258 51% 36%; /* Brand Violet #472D8B */
+    --primary: 258 51% 36%; /* Brand Violet #472D8B RGB(71,45,140) */
     --primary-foreground: 0 0% 100%;
     --primary-glow: 258 40% 55%; /* Lighter violet for glow effects */
 
     /* CHG Brand Colors - Secondary */
-    --secondary: 41 87% 62%; /* Brand Gold #F4BC46 */
+    --secondary: 41 87% 62%; /* Brand Gold #F4BC46 RGB(244,189,71) */
     --secondary-foreground: 258 51% 36%;
 
     --muted: 258 15% 95%;
     --muted-foreground: 258 20% 45%;
 
-    --accent: 199 100% 37%; /* Brand Process Blue #0083BF */
+    --accent: 199 100% 37%; /* Brand Process Blue #0083BF RGB(0,131,191) */
     --accent-foreground: 0 0% 100%;
 
-    /* CHG Brand - Ultra Brown for highlights */
-    --ultra-brown: 11 75% 51%; /* #DF4625 */
-    --bright-yellow: 48 99% 50%; /* #FFCE01 */
-    --brand-green: 150 100% 29%; /* #00964C */
+    /* CHG Brand - Exact colors from manual */
+    --ultra-brown: 11 75% 51%; /* #DF4625 RGB(224,71,38) */
+    --bright-yellow: 48 99% 50%; /* #FFCE01 RGB(255,206,2) */
+    --brand-green: 150 100% 29%; /* #00964C RGB(0,150,76) */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;

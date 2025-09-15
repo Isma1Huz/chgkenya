@@ -23,7 +23,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 gradient-warm rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 gradient-community rounded-lg flex items-center justify-center shadow-warm">
               <Home className="w-5 h-5 text-white" />
             </div>
             <span className="font-bold text-xl text-foreground">CHG Kenya</span>
@@ -37,8 +37,8 @@ const Navigation = () => {
                 <Link
                   key={item.name}
                   to={item.path}
-                  className={`flex items-center space-x-1 transition-smooth hover:text-primary ${
-                    isActive(item.path) ? 'text-primary font-medium' : 'text-muted-foreground'
+                  className={`flex items-center space-x-1 transition-smooth hover:text-ultra-brown ${
+                    isActive(item.path) ? 'text-ultra-brown font-medium' : 'text-muted-foreground'
                   }`}
                 >
                   <Icon className="w-4 h-4" />
@@ -46,7 +46,7 @@ const Navigation = () => {
                 </Link>
               );
             })}
-            <Button variant="default" className="gradient-warm text-white btn-glow">
+            <Button variant="default" className="gradient-community text-white btn-glow shadow-hope">
               <Heart className="w-4 h-4 mr-2" />
               Donate Now
             </Button>
@@ -73,7 +73,7 @@ const Navigation = () => {
                     to={item.path}
                     onClick={() => setIsOpen(false)}
                     className={`flex items-center space-x-3 p-2 rounded-lg transition-smooth hover:bg-muted ${
-                      isActive(item.path) ? 'text-primary bg-primary/10' : 'text-muted-foreground'
+                      isActive(item.path) ? 'text-ultra-brown bg-ultra-brown/10' : 'text-muted-foreground'
                     }`}
                   >
                     <Icon className="w-5 h-5" />
@@ -81,7 +81,7 @@ const Navigation = () => {
                   </Link>
                 );
               })}
-              <Button variant="default" className="gradient-warm text-white btn-glow mt-4">
+              <Button variant="default" className="gradient-community text-white btn-glow shadow-hope mt-4">
                 <Heart className="w-4 h-4 mr-2" />
                 Donate Now
               </Button>

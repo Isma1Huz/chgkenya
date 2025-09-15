@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 gradient-warm rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 gradient-community rounded-lg flex items-center justify-center shadow-warm">
                 <Home className="w-5 h-5 text-white" />
               </div>
               <span className="font-bold text-xl">CHG Kenya</span>
@@ -19,16 +19,16 @@ const Footer = () => {
               Restoring dignity and transforming lives through decent housing for marginalized families in Kenya.
             </p>
             <div className="flex space-x-4">
-              <Button size="icon" variant="ghost" className="text-background/80 hover:text-background hover:bg-background/10">
+              <Button size="icon" variant="ghost" className="text-background/80 hover:text-background hover:bg-ultra-brown/20">
                 <Facebook className="w-5 h-5" />
               </Button>
-              <Button size="icon" variant="ghost" className="text-background/80 hover:text-background hover:bg-background/10">
+              <Button size="icon" variant="ghost" className="text-background/80 hover:text-background hover:bg-accent/20">
                 <Twitter className="w-5 h-5" />
               </Button>
-              <Button size="icon" variant="ghost" className="text-background/80 hover:text-background hover:bg-background/10">
+              <Button size="icon" variant="ghost" className="text-background/80 hover:text-background hover:bg-brand-green/20">
                 <Instagram className="w-5 h-5" />
               </Button>
-              <Button size="icon" variant="ghost" className="text-background/80 hover:text-background hover:bg-background/10">
+              <Button size="icon" variant="ghost" className="text-background/80 hover:text-background hover:bg-secondary/20">
                 <Linkedin className="w-5 h-5" />
               </Button>
             </div>
@@ -77,18 +77,18 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Contact Us</h3>
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-primary mt-0.5" />
+                <MapPin className="w-5 h-5 text-ultra-brown mt-0.5" />
                 <span className="text-background/80 text-sm">
                   Kamulu, Kasarani Sub-county<br />
                   Nairobi, Kenya
                 </span>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-primary" />
+                <Mail className="w-5 h-5 text-accent" />
                 <span className="text-background/80 text-sm">info@chgkenya.org</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-primary" />
+                <Phone className="w-5 h-5 text-brand-green" />
                 <span className="text-background/80 text-sm">+254 700 000 000</span>
               </div>
             </div>
