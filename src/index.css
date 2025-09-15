@@ -17,36 +17,45 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 14 86% 58%;
+    /* CHG Brand Colors - Primary */
+    --primary: 258 51% 36%; /* Brand Violet #472D8B */
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 24 100% 70%;
+    --primary-glow: 258 40% 55%; /* Lighter violet for glow effects */
 
-    --secondary: 210 15% 97%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* CHG Brand Colors - Secondary */
+    --secondary: 41 87% 62%; /* Brand Gold #F4BC46 */
+    --secondary-foreground: 258 51% 36%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 258 15% 95%;
+    --muted-foreground: 258 20% 45%;
 
-    --accent: 200 85% 55%;
+    --accent: 199 100% 37%; /* Brand Process Blue #0083BF */
     --accent-foreground: 0 0% 100%;
+
+    /* CHG Brand - Ultra Brown for highlights */
+    --ultra-brown: 11 75% 51%; /* #DF4625 */
+    --bright-yellow: 48 99% 50%; /* #FFCE01 */
+    --brand-green: 150 100% 29%; /* #00964C */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 14 86% 58%;
+    --border: 258 15% 88%;
+    --input: 258 15% 88%;
+    --ring: 258 51% 36%;
 
-    /* Beautiful gradients for the NGO theme */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-warm: linear-gradient(135deg, hsl(14 86% 58%), hsl(24 100% 70%));
-    --gradient-hope: linear-gradient(180deg, hsl(24 100% 95%), hsl(14 100% 98%));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(200 100% 70%));
+    /* CHG Brand Gradients - Focused on Hope and Community */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--ultra-brown)));
+    --gradient-warm: linear-gradient(135deg, hsl(var(--ultra-brown)), hsl(var(--secondary)));
+    --gradient-hope: linear-gradient(180deg, hsl(var(--bright-yellow) / 0.1), hsl(var(--secondary) / 0.1));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--brand-green)));
+    --gradient-community: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
 
-    /* Elegant shadows */
-    --shadow-warm: 0 10px 30px -10px hsl(var(--primary) / 0.3);
+    /* CHG Brand Shadows */
+    --shadow-warm: 0 10px 30px -10px hsl(var(--ultra-brown) / 0.3);
     --shadow-soft: 0 4px 20px -4px hsl(var(--primary) / 0.15);
-    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.2);
+    --shadow-glow: 0 0 40px hsl(var(--secondary) / 0.3);
+    --shadow-hope: 0 8px 25px -8px hsl(var(--bright-yellow) / 0.4);
 
     /* Smooth transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -72,41 +81,46 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 258 51% 8%;
+    --foreground: 0 0% 95%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 258 51% 8%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 258 51% 8%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    /* CHG Dark Mode - Maintain brand identity */
+    --primary: 258 40% 75%; /* Lighter violet for dark mode */
+    --primary-foreground: 258 51% 8%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 41 87% 62%; /* Keep gold consistent */
+    --secondary-foreground: 258 51% 8%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 258 25% 15%;
+    --muted-foreground: 258 20% 70%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 199 80% 60%; /* Brighter blue for dark mode */
+    --accent-foreground: 258 51% 8%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --ultra-brown: 11 75% 55%; /* Slightly brighter */
+    --bright-yellow: 48 99% 50%;
+    --brand-green: 150 80% 45%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 258 25% 20%;
+    --input: 258 25% 20%;
+    --ring: 258 40% 75%;
+    --sidebar-background: 258 45% 12%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 258 40% 75%;
+    --sidebar-primary-foreground: 258 51% 8%;
+    --sidebar-accent: 258 25% 18%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 258 25% 18%;
+    --sidebar-ring: 258 40% 75%;
   }
 }
 
@@ -121,6 +135,7 @@ All colors MUST be HSL.
 }
 
 @layer utilities {
+  /* CHG Brand Gradients */
   .gradient-hero {
     background: var(--gradient-hero);
   }
@@ -137,6 +152,11 @@ All colors MUST be HSL.
     background: var(--gradient-accent);
   }
   
+  .gradient-community {
+    background: var(--gradient-community);
+  }
+  
+  /* CHG Brand Shadows */
   .shadow-warm {
     box-shadow: var(--shadow-warm);
   }
@@ -149,6 +169,11 @@ All colors MUST be HSL.
     box-shadow: var(--shadow-glow);
   }
   
+  .shadow-hope {
+    box-shadow: var(--shadow-hope);
+  }
+  
+  /* CHG Brand Transitions */
   .transition-smooth {
     transition: var(--transition-smooth);
   }
@@ -157,11 +182,41 @@ All colors MUST be HSL.
     transition: var(--transition-bounce);
   }
   
+  /* CHG Brand Interactive Elements */
   .hover-lift {
     @apply transition-smooth hover:scale-105 hover:shadow-warm;
   }
   
   .btn-glow {
-    @apply shadow-glow hover:shadow-warm transition-smooth;
+    @apply shadow-hope hover:shadow-warm transition-smooth;
+  }
+  
+  .hope-glow {
+    @apply shadow-hope transition-smooth;
+  }
+  
+  /* CHG Brand Specific Utilities */
+  .text-ultra-brown {
+    color: hsl(var(--ultra-brown));
+  }
+  
+  .text-bright-yellow {
+    color: hsl(var(--bright-yellow));
+  }
+  
+  .text-brand-green {
+    color: hsl(var(--brand-green));
+  }
+  
+  .bg-ultra-brown {
+    background-color: hsl(var(--ultra-brown));
+  }
+  
+  .bg-bright-yellow {
+    background-color: hsl(var(--bright-yellow));
+  }
+  
+  .bg-brand-green {
+    background-color: hsl(var(--brand-green));
   }
 }

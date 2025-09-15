@@ -48,6 +48,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        /* CHG Brand Colors */
+        "ultra-brown": "hsl(var(--ultra-brown))",
+        "bright-yellow": "hsl(var(--bright-yellow))",
+        "brand-green": "hsl(var(--brand-green))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

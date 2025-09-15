@@ -36,7 +36,7 @@ const Home = () => {
         </div>
         
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
-          <Badge className="mb-6 gradient-warm text-white border-none px-6 py-2 text-base">
+          <Badge className="mb-6 gradient-community text-white border-none px-6 py-2 text-base">
             Restoring Dignity, Transforming Lives
           </Badge>
           
@@ -46,8 +46,9 @@ const Home = () => {
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto text-white/90 leading-relaxed">
-            Commonwealth Housing Group Kenya is providing safe and decent homes for 25 families 
-            from Korogocho informal settlement, impacting 180 lives with dignity and hope.
+            Together we can make affordable housing for all. There's dignity in that. 
+            Commonwealth Housing Group Kenya is joining hands with 25 families from Korogocho 
+            to break the cycle and create hope for 180 lives.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -100,10 +101,13 @@ const Home = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-8">The Challenge</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-8">We Believe...</h2>
+            <div className="text-4xl md:text-6xl font-bold text-ultra-brown mb-6">
+              Slums are not a permanent problem.
+            </div>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Korogocho is one of Kenya's most densely populated informal settlements with 200,000 people 
-              living on just 1.5 square kilometers next to Nairobi's largest garbage dumping site.
+              They are "poverty and social-traps" that can be eliminated by communities coming together 
+              in agreement for better living conditions that bring back dignity. We exist to make social change.
             </p>
           </div>
 
@@ -116,28 +120,28 @@ const Home = () => {
               />
             </div>
             <div className="space-y-6">
-              <h3 className="text-2xl md:text-3xl font-bold">Living Conditions</h3>
+              <h3 className="text-2xl md:text-3xl font-bold">Community Transformation</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-3"></div>
-                  <p className="text-muted-foreground">Lack of proper water supply, sanitation, and waste management</p>
+                  <div className="w-2 h-2 bg-brand-green rounded-full mt-3"></div>
+                  <p className="text-muted-foreground">200,000 people deserve dignified living in Korogocho</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-3"></div>
-                  <p className="text-muted-foreground">No access to electricity and poor infrastructure</p>
+                  <div className="w-2 h-2 bg-accent rounded-full mt-3"></div>
+                  <p className="text-muted-foreground">Communities united by the vision of better living conditions</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-3"></div>
-                  <p className="text-muted-foreground">High levels of drugs, insecurity, and unemployment</p>
+                  <div className="w-2 h-2 bg-ultra-brown rounded-full mt-3"></div>
+                  <p className="text-muted-foreground">Breaking the cycle through community participation and hope</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-3"></div>
-                  <p className="text-muted-foreground">Chronic diseases and harmful effects on child development</p>
+                  <div className="w-2 h-2 bg-bright-yellow rounded-full mt-3"></div>
+                  <p className="text-muted-foreground">Building thriving communities of people united by dignified living</p>
                 </div>
               </div>
               <div className="pt-4">
-                <h4 className="text-xl font-semibold text-primary mb-2">We can change this!</h4>
-                <p className="text-muted-foreground">We can restore their dignity and hope with your help.</p>
+                <h4 className="text-xl font-semibold text-brand-green mb-2">Together, we can make this change!</h4>
+                <p className="text-muted-foreground">Join us in bringing dignity back through community-led transformation.</p>
               </div>
             </div>
           </div>
@@ -170,24 +174,24 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 gradient-warm text-white">
+      <section className="py-20 gradient-community text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8">Get Involved</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8">Join Our Community of Change</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            Every contribution counts. With your help, we can turn the dream of a safe home 
-            into reality for 13 more families who deserve to live with dignity.
+            Every contribution counts. Together we inspire, together we build, together we create 
+            dignified living for families who deserve hope and happiness.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg" 
               variant="outline" 
-              className="px-8 py-6 text-lg bg-white text-primary border-white hover:bg-white/90 transition-smooth"
+              className="px-8 py-6 text-lg bg-white text-ultra-brown border-white hover:bg-white/90 transition-smooth"
               asChild
             >
               <Link to="/donate">
                 <Heart className="w-5 h-5 mr-2" />
-                Donate Today
+                Join the Movement
               </Link>
             </Button>
             <Button 

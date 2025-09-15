@@ -63,16 +63,16 @@ const About = () => {
       <section className="py-20 gradient-hope">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <Badge className="mb-6 gradient-warm text-white border-none px-6 py-2 text-base">
+            <Badge className="mb-6 gradient-community text-white border-none px-6 py-2 text-base">
               Who We Are
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-8">
-              Improving Housing,
-              <span className="gradient-warm bg-clip-text text-transparent"> Dignifying Lives</span>
+              Improved Housing,
+              <span className="gradient-warm bg-clip-text text-transparent"> Dignified Lives</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Commonwealth Housing Group Kenya (CHG) is a nonprofit organization providing support to 
-              marginalized communities seeking decent and secure homes.
+              We exist to make social change. To bring dignity through affordable housing for all. 
+              To make communities thrive in healthy living conditions where housing is a right, not a privilege.
             </p>
           </div>
         </div>
@@ -95,7 +95,7 @@ const About = () => {
                 <p className="text-lg text-muted-foreground">Improved housing, dignified lives.</p>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-primary">Our Mission</h3>
+                <h3 className="text-2xl font-bold mb-4 text-ultra-brown">Our Mission</h3>
                 <p className="text-lg text-muted-foreground">
                   We exist to restore dignity and improve the livelihoods of marginalized families in 
                   informal settlements. We measure our success by the strides we make towards lifting 
@@ -103,11 +103,11 @@ const About = () => {
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4 text-primary">Our Approach</h3>
+                <h3 className="text-2xl font-bold mb-4 text-accent">Our Approach</h3>
                 <p className="text-lg text-muted-foreground">
-                  We support community-led initiatives tackling the housing challenge in urban informal 
-                  settlements, believing that when a family has a secure and stable home, they can improve 
-                  their livelihoods and build robust communities.
+                  We believe communities can eliminate poverty-traps by coming together for better living 
+                  conditions. When families have secure homes, they can improve their livelihoods and 
+                  build thriving communities united by dignified living.
                 </p>
               </div>
             </div>
@@ -115,14 +115,17 @@ const About = () => {
 
           {/* Core Values */}
           <div className="mb-20">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Our Core Values</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">Our Values</h2>
+            <p className="text-xl text-muted-foreground text-center mb-16 max-w-3xl mx-auto">
+              Social Change, Humanity, Community, Dignity, Ingenuity and of course... Happiness
+            </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {values.slice(0, 3).map((value, index) => {
                 const Icon = value.icon;
                 return (
                   <Card key={index} className="p-6 hover-lift border-none shadow-soft">
                     <CardContent className="p-0 text-center">
-                      <div className="inline-flex items-center justify-center w-16 h-16 gradient-warm rounded-full mb-4 shadow-warm">
+                      <div className="inline-flex items-center justify-center w-16 h-16 gradient-community rounded-full mb-4 shadow-warm">
                         <Icon className="w-8 h-8 text-white" />
                       </div>
                       <h3 className="text-xl font-bold mb-3">{value.title}</h3>
