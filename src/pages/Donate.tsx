@@ -78,7 +78,7 @@ const Donate = () => {
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-8">
               Donate and Make a
-              <span className="gradient-warm bg-clip-text text-transparent"> Real Difference</span>
+              <span className=""> Real Difference</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
               Every contribution counts. With your help, we can turn the dream of a safe home

@@ -74,7 +74,7 @@ const Contact = () => {
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-8">
               Contact
-              <span className="gradient-warm bg-clip-text text-transparent"> CHG Kenya</span>
+              <span className=""> CHG Kenya</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
               Have questions about our work, want to partner with us, or interested in supporting our mission? 

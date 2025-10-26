@@ -75,7 +75,7 @@ const Projects = () => {
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-8">
               Transforming Lives,
-              <span className="gradient-warm bg-clip-text text-transparent"> One Home at a Time</span>
+              <span className=""> One Home at a Time</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
               Our flagship project is relocating 25 families from Korogocho informal settlement 

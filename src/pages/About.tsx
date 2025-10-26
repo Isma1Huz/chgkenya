@@ -68,7 +68,7 @@ const About = () => {
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-8">
               Improved Housing,
-              <span className="gradient-warm bg-clip-text text-transparent"> Dignified Lives</span>
+              <span className=""> Dignified Lives</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
               We exist to make social change. To bring dignity through affordable housing for all. 

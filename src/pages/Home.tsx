@@ -97,7 +97,7 @@ const Home = () => {
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             A Decent Home Has the
-            <span className="gradient-warm bg-clip-text text-transparent"> Power to Transform</span> a Life
+            <span className=""> Power to Transform</span> a Life
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto text-white/90 leading-relaxed">
