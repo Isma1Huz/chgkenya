@@ -2,7 +2,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Users, Target, Heart, Shield, Handshake, CheckCircle, Calendar } from 'lucide-react';
-import teamImage from '@/assets/team-meeting.jpg';
+import teamImage from '@/assets/about.jpg';
 
 const About = () => {
   const values = [

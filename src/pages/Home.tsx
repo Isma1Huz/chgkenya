@@ -4,7 +4,7 @@ import { Badge } from '@/components/ui/badge';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Users, Home as HomeIcon, Target, Heart, CheckCircle, Star, Award, TrendingUp, Building, Droplets, Zap } from 'lucide-react';
 import heroImage from '@/assets/hero-housing.jpg';
-import projectImage from '@/assets/project-kamulu.jpg';
+import projectImage from '@/assets/dumpsite.jpg';
 
 const Home = () => {
   const stats = [
@@ -382,7 +382,7 @@ const Home = () => {
                   </div>
                 </div>
                 
-                <div className="bg-gradient-community p-8 lg:p-12 text-white flex items-center">
+                <div className="bg-gradient-community p-8 lg:p-12 text-black flex items-center">
                   <div>
                     <h4 className="text-2xl font-bold mb-6">The Multiplier Effect</h4>
                     <div className="space-y-4">

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Home, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import {  Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import logo from '@/assets/footerlogo.png';
 
 const Footer = () => {
   return (
@@ -10,9 +11,9 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 gradient-community rounded-lg flex items-center justify-center shadow-warm">
-                <Home className="w-5 h-5 text-white" />
-              </div>
+                <Link to="/" className="flex items-center space-x-2">
+                  <img src={logo} className=" text-white w-full h-[4rem]" />
+                </Link>              
               <span className="font-bold text-xl">CHG Kenya</span>
             </div>
             <p className="text-background/80 text-sm">
@@ -89,7 +90,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-brand-green" />
-                <span className="text-background/80 text-sm">+254 700 000 000</span>
+                <span className="text-background/80 text-sm">+254720-161-677</span>
               </div>
             </div>
           </div>
@@ -97,7 +98,7 @@ const Footer = () => {
 
         <div className="border-t border-background/20 mt-12 pt-8 text-center">
           <p className="text-background/60 text-sm">
-            © 2024 Commonwealth Housing Group Kenya. All rights reserved.
+            © 2025 Commonwealth Housing Group Kenya. All rights reserved.
           </p>
         </div>
       </div>

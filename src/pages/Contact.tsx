@@ -32,8 +32,7 @@ const Contact = () => {
       icon: Phone,
       title: 'Call Us',
       details: [
-        '+254 700 000 000',
-        '+254 711 000 000',
+        '+254 720 1616 77',
       ],
     },
     {

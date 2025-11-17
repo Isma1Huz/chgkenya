@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { Link } from 'react-router-dom';
 import { Home, Users, Droplets, Zap, GraduationCap, Heart, CheckCircle, ArrowRight } from 'lucide-react';
-import projectImage from '@/assets/project-kamulu.jpg';
+import projectImage from '@/assets/greenhouse.jpg';
 
 const Projects = () => {
   const projectStats = [

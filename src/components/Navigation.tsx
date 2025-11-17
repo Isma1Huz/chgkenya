@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Home, Users, FolderOpen, Heart, Phone } from 'lucide-react';
 import logo from '@/assets/logo_2.png';
@@ -18,6 +18,7 @@ const Navigation = () => {
 
   const isActive = (path: string) => location.pathname === path;
 
+    const navigate = useNavigate();
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#472D8B] ">
       <div className="container mx-auto px-4">
@@ -44,10 +45,14 @@ const Navigation = () => {
                 </Link>
               );
             })}
-            <Button variant="default" className="gradient-community text-white btn-glow shadow-hope">
-              <Heart className="w-4 h-4 mr-2" />
-              Donate Now
-            </Button>
+           <Button
+                variant="default"
+                onClick={() => navigate("/donate")}
+                className="gradient-community text-white btn-glow shadow-hope mt-4"
+              >
+                <Heart className="w-4 h-4 mr-2" />
+                Donate Now
+              </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -79,7 +84,12 @@ const Navigation = () => {
                   </Link>
                 );
               })}
-              <Button variant="default" className="gradient-community text-white btn-glow shadow-hope mt-4">
+              
+              <Button
+                variant="default"
+                onClick={() => navigate("/donate")}
+                className="gradient-community text-white btn-glow shadow-hope mt-4"
+              >
                 <Heart className="w-4 h-4 mr-2" />
                 Donate Now
               </Button>
